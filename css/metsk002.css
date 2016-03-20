@@ -1,0 +1,153 @@
+html{
+    background-color: black;
+}
+body{
+    background-color: #D2E9FF;
+    font-family: "Microsoft YaHei";
+    line-height: 1.5em;
+    margin: 0px 100px;
+    padding: 0px 0px;
+}
+header {
+    margin: 0px 10px 0px 10px;
+    height: 75px;
+    background-color: #ffc0cb;  
+}
+
+
+nav{
+    float: right;
+}
+
+body>header nav li {    
+    display: inline-block;  
+    margin-left: 1em;
+}
+
+nav li a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 12px;
+    margin-right: 1em;
+}
+
+article{
+    background-color: white;
+    margin: 45px 20px;
+    padding: 20px;
+    border-color: #BBBBBB;
+    border-style: solid;
+    border-width: 1px;
+}
+
+figure{
+    width: 400px;
+    padding: 10px;
+}
+
+figure div{
+    text-align: center;
+    margin: 20px; 
+    padding: 20px;
+    border-color: #BBBBBB;
+    border-style: solid;
+    border-width: 1px;
+    position: relative;
+}
+
+article h3{
+    color: #777777;
+}
+
+article header{
+    color: #999999;
+}
+
+article li{
+    line-height: 2em;
+}
+
+p{
+    text-indent: 2em;
+}
+
+footer {
+    font-size: 100%;
+    text-align: center;
+    line-height: normal;
+    margin-top: 20px;
+}
+
+table{
+    border: 1px solid #BBBBBB;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table tr,td{
+    border: 1px solid #BBBBBB;
+    padding: 5px;
+}
+
+thead{
+    background-color: black;
+    color: white;
+}
+
+tfoot{
+    background-color: #BBBBBB;
+} 
+
+caption{
+    font-size: 3em;
+    text-align: top;
+    margin: 0px 0px 30px 0px;
+}
+
+#lax{
+    border-left: 5px #BBBBBB solid;
+    padding: 10px;
+}
+
+.leftt{
+    display: inline-block;
+    text-align: right;
+    width: 30%;
+    margin-right: 1em;
+    margin-top: 0.7em;
+}
+
+.rightt{
+    display: inline-block;
+    vertical-align: text-top;
+}   
+
+.notion{
+    color: #BBBBBB;
+    font-size: 0.7em;
+}
+
+.smt{
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    color: white;
+    font-weight: bold;
+    font-size: 1em;
+    background-color: #35d;
+    border-radius: 10px;
+}
+
+.logo{
+    float: left;
+    max-height: 70px;
+    margin: 0px 40px 40px 10px;
+    position: absolute;
+}
+
+textarea {
+    width: 60%;
+    height: 10em;
+
+    vertical-align: text-top;
+}
