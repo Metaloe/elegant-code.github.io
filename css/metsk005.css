@@ -45,6 +45,11 @@ header {
     font-size: 12px;
 }
 
+#sidebar{
+    width: 350px;
+    float: right;
+}
+
 main {
     margin-right: 400px;
 }
@@ -68,6 +73,25 @@ article h3 {
 
 article header {
     color: #999999;
+}
+
+dl {
+    padding: 10px 0px 10px 30px;
+    overflow: hidden;
+}
+
+dl dd {
+    float: left;
+    text-align: center;
+    margin: 20px; 
+    padding: 20px;
+    border-color: #BBBBBB;
+    border-style: solid;
+    border-width: 1px;
+}
+
+dl dd img{
+    width: 137px; height: 137px;
 }
 
 .list {
@@ -164,19 +188,4 @@ textarea {
 
 #ooo {
     width:100px; height: 100px;
-}
-
-figure {
-    width: 400px;
-    padding: 10px;
-}
-
-figure div {
-    text-align: center;
-    margin: 20px; 
-    padding: 20px;
-    border-color: #BBBBBB;
-    border-style: solid;
-    border-width: 1px;
-    position: relative;
 }
