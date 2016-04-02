@@ -1,0 +1,62 @@
+*{
+    margin: 0px; padding: 0px;
+    overflow: hidden;
+}
+
+body{
+    padding: 20px;
+}
+
+article{
+    position:relative;
+    left: 0px; top: 0px;
+    padding: 20px;
+    background-color: #eee;
+    border: 1px #999 solid;
+    height: 500px;
+}
+
+#team{
+    /*2*1px+2*20px+158px=200px*/
+    border: 1px solid #999;
+    padding: 20px;
+    background-color: white;
+    width: 158px;
+    height: auto;
+    position: absolute;
+    top: 20px; left: 20px;
+}
+
+#teamname{
+    font-size: 0.97em;
+    float: right;
+}
+
+#el{
+    width: 80px; height: 80px;
+}
+
+#introduction{
+    border: 1px solid #999;
+    padding: 20px;
+    margin-right: 140px;
+    margin-left: 220px;
+    background-color: white;
+}
+
+#member{
+    /*padding+width+border=120px*/
+    padding: 20px;
+    width: 78px;
+    background-color: white;
+    border: 1px #999 solid;
+    position: absolute;
+    top: 20px; right: 20px;
+}
+
+.mbimg{
+    text-align: center;
+    /*每张图片78px宽加上两条边框刚好80px*/
+    border: solid 1px #999;
+    width: 78px; height: 78px;
+}
